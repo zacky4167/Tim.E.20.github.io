@@ -1,0 +1,37 @@
+@media (max-width: 1000px) {
+	.card {
+		width: 50%;
+	}
+	.top-wrapper h1{
+		font-size: 36px;
+	}
+	* {
+		box-sizing: border-box;
+	}
+}
+
+@media (max-width: 700px) {
+	.card {
+		width: 100%;
+	}
+	.btn {
+		width: 100%;
+	}
+	.top-wrapper h1 {
+		font-size: 24px;
+		text-align: left;
+	}
+	.top-wrapper p {
+		font-size: 14px;
+		text-align: left;
+	}
+	.menu-icon {
+		display: block;
+	}
+	.header-right {
+		display: none;
+	}
+	* {
+		box-sizing: border-box;
+	}
+}
